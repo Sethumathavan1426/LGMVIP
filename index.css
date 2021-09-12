@@ -1,0 +1,327 @@
+.carousel-indicators button {
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 100%;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    visibility: hidden;
+}
+
+body {
+    background-color: rgb(0, 71, 99) !important;
+    font-family: Verdana, Geneva, Tahoma, sans-serifS;
+}
+
+.second-cont {
+    background-color: white;
+    min-height: 50px;
+    padding: 20px 20px 10px 20px;
+}
+
+.welcom-cont {
+    max-width: 600px;
+    margin: auto;
+    padding: 5px;
+}
+
+.intro-cont {
+    font-size: 20px;
+}
+
+.pg-title {
+    font-weight: 800 !important;
+    margin: 20px 0 !important;
+}
+
+.intro-cont svg {
+    color: #d9d7d7;
+}
+
+.img-cen {
+    width: 200px;
+    margin: auto;
+}
+
+/* main end  */
+
+.inner-cont {
+    margin: 40px 0 30px 0 !important;
+}
+
+.inner-cont p {
+    text-align: center;
+}
+
+.icon {
+    background-color: #511688;
+    text-align: center;
+    border-radius: 100%;
+    width: 60px;
+    height: 60px;
+    margin: auto;
+    padding: 15px;
+}
+
+.icon svg {
+    color: #e4dede;
+}
+
+h4 {
+    font-weight: 700 !important;
+    margin: 15px 0 !important;
+    text-align: center;
+}
+
+.inner-cont button:hover {
+    background-color: #511688;
+    border-color: #511688;
+    color: #fff;
+}
+
+.inner-cont button {
+    background-color: #ffe36b;
+    border: 1px solid #ffe36b;
+    border-radius: 4px;
+    font-size: 12px;
+    padding: 10px;
+    font-weight: 600;
+}
+
+.inner-cont>div {
+    margin-top: 20px;
+}
+
+/* second end */
+
+.project-cont {
+    background-color: #fff;
+    padding-bottom: 35px;
+}
+
+.project-title {
+    width: 100px;
+    margin: auto;
+    font-weight: 800 !important;
+}
+
+.project-detail {
+    background-color: #e4dede;
+    margin-top: 35px;
+}
+
+.project-detail>div {
+    padding: 20px;
+}
+
+.project-detail:hover {
+    background-color: #ffe36b;
+}
+
+.project-detail button {
+    border: 1px solid #e4dede;
+    border-radius: 4px;
+    padding: 8px;
+}
+
+.project-detail:hover button {
+    background-color: #511688;
+    color: #fff;
+}
+
+/* Projectcont  end */
+
+.pricing-cont {
+    background-color: #fff;
+}
+
+.pricing {
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+}
+
+.pricing .h2 {
+    /* padding-bottom: 25px; */
+    padding-top: 10px;
+    font-weight: 800;
+}
+
+.pricing button {
+    width: 100;
+    border: 1px solid #e4dede;
+    border-radius: 4px;
+    background-color: #ffe36b;
+}
+
+.pricing button:hover {
+    background-color: #511688;
+    color: #fff;
+}
+
+.plans {
+    padding-top: 30px;
+    margin-bottom: 50px;
+}
+
+.vr {
+    border-right: 1px solid rgb(189, 189, 189);
+    height: 200px;
+    padding-top: 0 !important;
+    margin-top: 30px !important;
+}
+
+/* price list end */
+
+.video-slide {
+    background-color: #511688;
+    height: 600;
+    padding: 60px 0;
+}
+
+/* external css: flickity.css */
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  body { font-family: sans-serif; }
+  
+  .gallery {
+    background: #EEE;
+  }
+  
+  .gallery-cell {
+    width: 66%;
+    height: 400px;
+    margin-right: 10px;
+    background: #8C8;
+    counter-increment: gallery-cell;
+  }
+  
+  /* cell number */
+  .gallery-cell:before {
+    display: block;
+    text-align: center;
+    line-height: 200px;
+    font-size: 80px;
+    color: white;
+  }
+  
+
+/* video end */
+video{
+    height: inherit;
+    width: 100%;
+}
+.zippy-team {
+    background-color: #fff;
+    padding: 35px 0;
+}
+
+.teams {
+    max-width: 600;
+    margin: auto;
+    text-align: center;
+}
+
+.teams .h2{
+    margin-bottom: 3.0rem;
+}
+.image {
+    position: relative;
+}
+
+.user-info-section {
+    border-radius: 100%;
+    height: 200px;
+    width: 200px;
+    position: relative;
+}
+
+.user-info-section .overlay {
+    display: none;
+    height: inherit;
+    width: inherit;
+    background-color: violet;
+    position: absolute;
+    border-radius: 100%;
+    opacity: 0.4;
+}
+.user-info-section{
+    margin: auto;
+}
+.user-info-section .user-info-icons {
+    display: none;
+    justify-content: space-around;
+    height: inherit;
+    width: inherit;
+    position: absolute;
+    align-items: center;
+}
+
+.user-info-section:hover .user-info-icons {
+    display: flex;
+}
+
+.user-info-section:hover .overlay {
+    display: block;
+}
+
+.user-info-section img {
+    border-radius: 100%;
+}
+
+/* zippy team ends */
+
+.zippe-life{
+    background-color: #ece8e8;
+    min-height: 800px;
+    text-align: center;
+    margin: auto !important;
+}
+.life .h2{
+    font-weight: 700;
+    padding: 50px;
+}
+.life{
+    margin: auto;
+    max-width: 375px;
+}
+.view-container{
+    min-width: 375px;
+    min-height: 375px;
+    /* border: 1px solid black; */
+}
+#main-view-scroll{
+    display: flex;
+    min-width: 100px;
+    min-height: 100px;
+}
+.scroll-nav{
+    height: 75px;
+    min-width: 27px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.scroll-nav svg{
+    color: white;
+}
+.scroll-nav:hover{
+    background-color: rgb(121, 5, 121);
+}
+.scroll-bar{
+    display: flex;
+    min-width: 375px;
+    max-height: 75px;    
+    margin-top: 7px;
+}
+.scroll-cont{
+    display: block;
+    min-width: 80px;
+    cursor: pointer;
+}
