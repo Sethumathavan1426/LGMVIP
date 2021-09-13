@@ -133,6 +133,9 @@ https://flickity.metafizzy.co
     cursor: pointer;
   }
   
+  ol.flickity-page-dots{
+    display: none !important;
+  }
   .flickity-page-dots .dot.is-selected {
     opacity: 1;
   }

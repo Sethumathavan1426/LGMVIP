@@ -208,13 +208,19 @@ h4 {
     font-size: 80px;
     color: white;
   }
-  
+  .h2.text-center.text-white {
+    margin-bottom: 20px;
+}
 
-/* video end */
+
 video{
     height: inherit;
     width: 100%;
 }
+
+/* video end */
+
+
 .zippy-team {
     background-color: #fff;
     padding: 35px 0;
@@ -225,9 +231,9 @@ video{
     margin: auto;
     text-align: center;
 }
-
 .teams .h2{
     margin-bottom: 3.0rem;
+    font-weight: 800;
 }
 .image {
     position: relative;
@@ -277,7 +283,7 @@ video{
 
 .zippe-life{
     background-color: #ece8e8;
-    min-height: 800px;
+    min-height: 700px;
     text-align: center;
     margin: auto !important;
 }
@@ -286,8 +292,8 @@ video{
     padding: 50px;
 }
 .life{
+    max-width: 375px !important;
     margin: auto;
-    max-width: 375px;
 }
 .view-container{
     min-width: 375px;
@@ -324,4 +330,83 @@ video{
     display: block;
     min-width: 80px;
     cursor: pointer;
+}
+
+/* end scroll */
+
+.newsletter{
+    background-image: url("./image/newsletter.png");
+    width: 100%;
+}
+.newsletter-bar{
+    padding-top: 200;
+    padding-bottom: 200;
+}
+.newsletter-bar .h2{
+    font-weight: 800;
+}
+.newsletter-bar input{
+    margin-top: 25px ;
+    width: 500px;
+    height: 45px;
+    border: 1px solid white;
+    border-radius: 4px;
+    padding-left: 12px;
+    font-size: 18px;
+}
+.newsletter-bar button{
+    height: 45px;
+    width: 125px;
+    border-radius: 4px;
+    background-color: #ffe36b;
+    border: 1px solid #ffe36b;
+}
+.newsletter-bar button:hover{
+    background-color: rgb(121, 5, 121);
+    color: #fff;
+    border: 1px solid rgb(121, 5, 121);
+}
+.newsletter-bar input:focus{
+    border: 1px solid white;
+}
+
+
+
+.blog{
+    background-color: #fff;
+    height: 800px;
+}
+.blog .h2{
+    padding: 12px 0;
+    font-weight: 800;
+    padding-top: 30px;
+}
+.blog-container{
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+}
+.blog img{
+    width: 200px;
+    height: 150px;
+    border-radius: 2px;
+    margin-top: 35px;
+}
+.blog .h5{
+    margin-top: 15px;
+}
+.blog p{
+    margin-top: 12px;
+}
+.blog button{
+    background-color: #ffe36b;
+    border: 1px solid #ffe36b;
+    border-radius: 4px;
+    width: 150px;
+    height: 50px;
+}
+.blog button:hover{
+    background-color:rgb(121, 5, 121);
+    border: 1px solid rgb(121, 5, 121);
+    color: #fff;
 }
