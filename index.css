@@ -42,7 +42,51 @@ body {
     width: 200px;
     margin: auto;
 }
-
+.corr {
+    top: 0;
+    bottom: auto;
+    font-weight: 500;
+}
+.carousel-caption h2{
+    color: #fff;
+    font-weight: 800px !important;
+}
+.carousel-caption button{
+    border-radius: 4px;
+    background-color: #ffe36b;
+    border: 1px solid #ffe36b;
+    padding: 7px 10px;
+    margin-bottom: 10px;
+}
+.wid{
+    width: 400px;
+}
+.carousel-caption button:hover{
+    background-color: #511688;
+    border: 1px solid #511688;
+    color: #fff;
+}
+.nav-item{
+    color: #fff !important;
+}
+.nav-item a{
+    text-decoration: none;
+    padding:0 20px;
+    color: #fff;
+}
+.nav-item h2{
+    padding-right: 130px !important;
+}
+.nav-cont{
+    margin-left: 325px !important;
+    margin-bottom: -40px !important;
+}
+.nav{
+    margin-bottom: -40px !important;
+}
+.nav-item :hover{
+    color: #ffe36b;
+}
 /* main end  */
 
 .inner-cont {
@@ -347,7 +391,7 @@ video{
 }
 .newsletter-bar input{
     margin-top: 25px ;
-    width: 500px;
+    width: 50%;
     height: 45px;
     border: 1px solid white;
     border-radius: 4px;
@@ -356,7 +400,7 @@ video{
 }
 .newsletter-bar button{
     height: 45px;
-    width: 125px;
+    width: 10%;
     border-radius: 4px;
     background-color: #ffe36b;
     border: 1px solid #ffe36b;
@@ -370,11 +414,9 @@ video{
     border: 1px solid white;
 }
 
-
-
 .blog{
     background-color: #fff;
-    height: 800px;
+    min-height: 700px;
 }
 .blog .h2{
     padding: 12px 0;
@@ -409,4 +451,49 @@ video{
     background-color:rgb(121, 5, 121);
     border: 1px solid rgb(121, 5, 121);
     color: #fff;
+}
+
+/* blog */
+
+.map-contact{
+    background-color: #fff;
+    min-height: 700px;
+    border: #fff 1px solid;
+}
+.form{
+    background-color: #ffe36b;
+    padding: 30px;
+}
+/* .map-contact{
+    padding-top: 25px;
+    padding-bottom: 25px;
+} */
+.img-dis , .form-dis{
+    padding-top:15px !important;
+    padding-bottom: 15px !important;
+}
+.map-contact label{
+    padding-top: 10px;
+}
+.map-contact input, .map-contact textarea{
+    margin-top: 10px;
+    width: 80% !important;
+    border: #fff 1px solid;
+}
+.form button{
+    width: 80% !important;
+    background-color: #511688;
+    color: #fff;
+    margin-top: 15px;
+    height: 35px;
+}
+.details{
+    width: 70%;
+    margin: auto;
+}
+.detail-cont{
+    margin-top: 15px !important;
+}
+.pad{
+    margin-top: 15px !important;
 }
